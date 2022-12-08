@@ -1,29 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <title>Fork Me! FCC: Test Suite Template</title>
-    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
-
   <body>
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <nav>
+      <ul>
+        <li><a href="#main">About</a></li>
+        <li><a href="#popular">Popular videos</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#social">Social</a></li>
+      </ul>
+    </nav>
+    <section id="main">
+      <div class="container">
+        <div id="tribute-info" class="tribute-info">
+          <h1 id="title">Brad Traversy</h1>
+          <p>
+            I started coding in 2007 at the age of 26. I became a full-time educator & content creator in 2016.
 
-    <!--
+            I show people that they don't have to be a straight A student or a genius to learn to code. I break down complex concepts by showing you how to implement them in project-based courses and tutorials.
+          </p>
+          <p>
+            Brad runs a popular <a id="tribute-link" href="https://www.youtube.com/@TraversyMedia">Youtube Channel</a>for programmers. It has over
+            700+ video tutorials.
+          </p>
 
- hello world 
-
-    Hello Camper!
-
-    For now, the test suite only works in Chrome!
-    Please read the README below in the JS Editor before beginning.
-    Feel free to delete this message once you have read it.
-    Good luck and Happy Coding!
-
-    - The freeCodeCamp Team
-
-    -->
-    hello world!
-    <script  src="js/index.js"></script>
+          <div
+            class="g-ytsubscribe"
+            data-channel="TechGuyWeb"
+            data-layout="default"
+            data-count="default"
+          ></div>
+        </div>
+        <div id="img-div" class="img-div">
+          <img
+            id="image"
+            src="https://avatars.githubusercontent.com/u/5550850?v=4"
+            alt="Brad"
+            class="responsive-img"
+          />
+          <p id="img-caption">Brad Traversy - #CoolGuy</p>
+        </div>
+      </div>
+    </section>
+    <section id="popular">
+      <h2>Popular Videos</h2>
+      <div class="container">
+        <div class="video-wrapper">
+        <iframe
+          src="https://www.youtube.com/embed/S67gyqnYHmI"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <div class="video-wrapper">
+        <iframe
+          src="https://www.youtube.com/embed/hdI2bqOjy3c"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+      </div>
+    </section>
+    <section id="testimonials">
+      <h2>Testimonials</h2>
+      <div class="container">
+      <blockquote class="twitter-tweet">
+        <p lang="es" dir="ltr">
+          2. 50 Proyectos 50 Días contiene 50 proyectos con HTML CSS y JS que
+          puedes ir realizando a diario! 💪
+          <a href="https://t.co/c9slW9wmyc">https://t.co/c9slW9wmyc</a>
+        </p>
+        &mdash; Fabio Alcocer Sejas ᅠ (@fabioalcocer17)
+        <a
+          href="https://twitter.com/fabioalcocer17/status/1597648446651265025?ref_src=twsrc%5Etfw"
+        >
+          November 29, 2022
+        </a>
+      </blockquote>
+    </div>
+    </section>
+    <section id="social" class="bg-red">
+      <h2>Follow Brad</h2>
+      <ul class="container">
+        <li>
+          <a href="#">Twitter</i></a>
+        </li>
+        <li><a href="#">Instagram</a></li>
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">LinkedIn</a></li>
+        <li><a href="#">GitHub</a></li>
+      </ul>
+    </section>
+    <footer>
+      We love you Brad.
+    </footer>
+    <script src="https://apis.google.com/js/platform.js"></script>
+    <script
+        async
+        src="https://platform.twitter.com/widgets.js"
+        charset="utf-8"
+      ></script>
   </body>
 </html>
